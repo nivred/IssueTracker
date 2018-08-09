@@ -73,7 +73,7 @@ function fetchIssue() {
         var assignedTo = issues[i].assignedTo;
         var status = issues[i].status;
 
-        issuesList.innerHTML += '<div class="card">'+
+        issuesList.innerHTML += '<div class="card mb-1">'+
                                     '<div class="card-header">' +
                                         '<h6 class="text-muted mb-1">Issue ID: ' + id + '</h6>' +
                                         '<span class="badge badge-dark p-1">' + status + '</span>' +
